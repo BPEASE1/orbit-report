@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { OrbitListComponent } from './orbit-list/orbit-list.component';
-import {orbitCountsComponent} from './orbit-counts/orbit-counts.component';
+import { OrbitListComponent } from './orbit-list.component';
+import {OrbitCountsComponent} from './orbit-counts.component';
 
 
 
@@ -10,7 +10,7 @@ import {orbitCountsComponent} from './orbit-counts/orbit-counts.component';
   declarations: [
     AppComponent,
     OrbitListComponent,
-    orbitCountsComponent.OrbitCountsComponent
+    OrbitCountsComponent
   ],
   imports: [
     BrowserModule
